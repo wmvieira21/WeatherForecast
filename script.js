@@ -40,7 +40,7 @@ function featchWeather(event) {
 
 function updateWeather(weatherData) {
     weatherCityName.innerHTML = weatherData.cityName.toUpperCase();
-    weatherDesc.innerHTML = weatherData.description;
+    weatherDesc.innerHTML = weatherData.description.toUpperCase();
     weatherTempCelsius.innerHTML = weatherData.temperatureCelsius;
     weatherTempF.innerHTML = weatherData._temperatureF;
     weatherCountry.innerHTML = weatherData.country;

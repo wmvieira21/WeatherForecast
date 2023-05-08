@@ -68,14 +68,13 @@ main {
 .loader {
     display: none;
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
 
 .weather-info {
     margin-top: 5rem;
     background-color: rgba(128, 128, 128, 0.412);
-    width: 60%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 3/1;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -99,4 +98,11 @@ main {
     width: 60%;
     font-size: 5rem;
     text-align: center;
+}
+
+#weatherDesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: black;
 }
