@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="weather clime forecast">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather forecasting</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather forecasting</h1>
+    </header>
+    <main>
+        <section class="main-weather">
+            <label for="cityName">City Name</label>
+            <input tabindex="0" type="text" id="cityName" placeholder="Ex: london">
+            <button class="button">Show Weather!</button>
+        </section>
+
+
+        <div class="loader">Loading...</div>
+
+        <section class="weather-info">
+            <h1 id="weatherCity">City name</h1>
+            <h2 id="weatherCountry">Country</h2>
+            <div id="weatherDesc">Weather description</div>
+
+            <div class="tempeture">
+                <h2 id="weatherTempCelsius">celsius</h2>
+                <h2 id="weatherTempF">fa</h2>
+            </div>
+
+        </section>
+    </main>
+    <script src="init.js"></script>
+    <script src="weather-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
